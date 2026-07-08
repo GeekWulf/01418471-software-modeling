@@ -15,22 +15,6 @@ public class Player {
         this.piece = new Piece(board.getOriginSquare());
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public ArrayList<Die> getDice() {
-        return dice;
-    }
-
-    public Piece getBoard() {
-        return piece;
-    }
-
-    public Piece getPiece() {
-        return piece;
-    }
-
     public void takeTurn() {
         int totalFaceValue = 0;
 
